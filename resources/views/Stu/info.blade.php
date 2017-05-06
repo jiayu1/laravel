@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+  <center>
+     <h3>操作用户结果</h3>
+	 {include file="stu/menu.html"}
+	 {$info}
+  </center>
+</body>
+</html>

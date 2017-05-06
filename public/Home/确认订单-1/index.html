@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script type="text/javascript">
+                window.__trace__headstart = +new Date;
+                window.__server__startTime = 1492744182015;
+                window.__token = "4H0g28kbfZfvoKcUy%2BWoMLbRQrGEEtS7q2GOhA4u8W11qhyIbf%2BhFYdKLLXmaEQy";
+    </script>
+    <meta charset="UTF-8">
+
+        <link rel="dns-prefetch" href="http://s.meilishuo.net/">
+    <link rel="dns-prefetch" href="http://i.meilishuo.net/">
+    <link rel="dns-prefetch" href="http://d01.res.meilishuo.net/">
+    <link rel="dns-prefetch" href="http://d02.res.meilishuo.net/">
+    <link rel="dns-prefetch" href="http://d03.res.meilishuo.net/">
+    <link rel="dns-prefetch" href="http://d04.res.meilishuo.net/">
+    <link rel="dns-prefetch" href="http://d05.res.meilishuo.net/">
+
+    <meta http-equiv="Cache-Control" content="no-transform ">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>确认订单</title>
+    <meta name="keywords" content="$esc.html($!keywords)">
+    <meta name="description" content="$esc.html($!description)">
+    <meta name="copyright" content="meilishuo.com">
+
+    
+    
+    
+    <link rel="search" type="application/opensearchdescription+xml" href="http://buy.meilishuo.com/opensearch.xml">
+    <link rel="icon" href="170330_857h1j61b338h08c97587l96k3hk8_48x48.png" type="image/x-icon">
+
+    <script type="text/javascript">
+    var curl = {apiName: 'require'}; var MOGU = {}; var MoGu = {};
+    var MOGU_DEV= 0 || "online" == "pre";
+    var M_ENV = "online";
+    </script>
+
+
+
+                
+    
+
+        
+        
+    
+    <!--[if lte IE 8]>
+    <script src="https://s10.mogucdn.com/__mfp/meili-lib/assets/0.0.3/es5-shim.js,mfp/meili-lib/assets/0.0.3/es5-sham.js,mfp/meili-lib/assets/0.0.3/console-polyfill.js,mfp/meili-lib/assets/0.0.3/json2.js"></script>
+    <![endif]-->
+
+                <script type="text/javascript" src="pkg-pc-base.js-5299c175.js"></script>
+    
+    
+
+    <script type="text/javascript">
+
+        if(window.require) {
+            require.config({
+                domain: 0
+            });
+        }
+
+        MOGUPROFILE = {};
+    </script>
+
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body class="media_screen_1200">
+
+    
+<script type="text/javascript">
+    /**
+    ** for layout 960
+    **/
+    (function(){
+        var wWidth = $(window).width(); if(wWidth < 1212){ $('body').addClass('media_screen_960'); } else { $('body').addClass('media_screen_1200'); }
+        //initTime for log 判断对象是否存在
+        window.MoGu && $.isFunction(MoGu.set) && MoGu.set('initTime', (new Date()).getTime());
+
+        var ua = navigator.userAgent;
+        // 判断是否是ipad
+        var is_plat_ipad = ua.match(/(iPad).*OS\s([\d_]+)/);
+        if(is_plat_ipad) {
+            $('body').addClass('media_ipad');
+        }
+        // 判断是否是ipadApp
+        var is_plat_ipadApp = ua.indexOf('MeilishuoHD') >= 0 || location.href.indexOf('_atype=ipad') >= 0;
+        if(is_plat_ipadApp) {
+            $('body').addClass('media_ipad_app');
+            // 隐藏头尾
+            $('body').append('<style type="text/css">.header_2015,.header_nav,.foot .foot_wrap{display: none;}.foot{height: 0;background: none;}.back2top_wrap{height:0;width:0;overflow:hidden;opacity:0;}</style>');
+            // 移除购物车，返回顶部
+            setTimeout(function(){
+                $('.back2top_wrap').remove();
+            },1000)
+        }
+    })();
+</script>
+
+    <div class="mgj_rightbar" data-ptp="_sidebar"></div>
+<div id="header" class="J_sitenav header_2015" data-ptp="_head">
+    <div class="wrap clearfix"><a href="http://www.meilishuo.com/" rel="nofollow" class="home fl">美丽说首页</a><ul class="header_top"><li class="s1 has_icon user_meta"><a rel="nofollow" href="javascript:;">烟火zzz2017</a><a rel="nofollow" href="http://order.meilishuo.com/pcenter" target="_top"></a><i class="icon_delta"></i><ol class="ext_mode" id="menu_personal"><li class="s2"><a target="_top" rel="nofollow" href="http://www.meilishuo.com/account/setPersonal">个人设置</a></li><li class="s2"><a rel="nofollow" href="http://www.meilishuo.com/user/logout">退出</a></li></ol></li><li class="s1 has_icon has_line user_fav"><a rel="nofollow" href="javascript:;">我的收藏</a><i class="icon_delta"></i><ul class="ext_mode"><li class="s2"><a target="_top" rel="nofollow" href="http://www.meilishuo.com/pcenter/mylike">收藏宝贝</a></li><li class="s2"><a target="_top" rel="nofollow" href="http://www.meilishuo.com/pcenter/store">收藏店铺</a></li></ul></li><li class="s1 myorder has_line"><a href="http://buyer.meilishuo.com/mls/order/list4buyer" target="_top" class="text display_u" ref="nofollow">我的订单</a></li><li class="s1 has_line shopping_cart_v2"><a class="cart_info_wrap" href="http://cart.meilishuo.com/mls/cart/mycart" target="_top" ref="nofollow"><span class="cart_info">购物车</span></a><i class="icon_delta"></i><span class="shopping_cart_loading"></span></li><li class="s1 has_line has_icon custom_item"><a rel="nofollow" href="http://www.meilishuo.com/helpcenter" ref="nofollow" target="_top">帮助中心</a><i class="icon_delta"></i><ol class="ext_mode"><li class="s2"><a target="_top" rel="nofollow" href="http://www.meilishuo.com/helpcenter/buyerService/">买家服务</a></li><li class="s2"><a target="_top" rel="nofollow" href="http://xd.meilishuo.com/pc/shopadmin/help/home">商家服务</a></li><li class="s2"><a target="_top" rel="nofollow" href="http://www.meilishuo.com/helpcenter/ruleCenter/">规则中心</a></li></ol></li><li class="s1 has_line has_icon"><a href="http://xd.meilishuo.com/" ref="nofollow" target="_top" class="text display_u">商家后台</a></li></ul></div>
+</div>
+    <!-- 中间区域 -->
+<!--<div class="header_mid clearfix">
+    <div class="wrap">
+        <a rel="nofollow" href="http://www.mogujie.com" class="logo" title="蘑菇街首页"></a>
+                        <div class="mid_fr">
+            <div class="nav_mogu_qrcode">
+                <img width="70" height="70" src="http://s18.mogucdn.com/p1/150929/upload_iezggyjwgrrdgztfgmzdambqmmyde_300x300.png" alt="蘑菇街客户端下载"/>
+                <p>蘑菇街客户端</p>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+  <div id="body_wrap">
+        <div id="process_bar"> <div class="g-header clearfix"> <div class="g-header-in wrap clearfix"> <div class="process-bar"> <div class="md_process md_process_len4"> <div class="md_process_wrap md_process_step2_5"> <div class="md_process_sd"></div> <i class="md_process_i md_process_i1"> 1 <span class="md_process_tip">购物车</span> </i> <i class="md_process_i md_process_i2"> 2 <span class="md_process_tip">确认订单</span> </i> <i class="md_process_i md_process_i3"> 3 <span class="md_process_tip">支付</span> </i> <i class="md_process_i md_process_i4"> <img src="right.png" alt="" height="23" width="23"> <span class="md_process_tip">完成</span> </i> </div> </div> </div> <a title="美丽说" href="http://www.meilishuo.com/" target="_top"><div class="logo logo-generate"></div> </a> </div> </div></div>
+
+<div id="pay_info">   <div class="g-wrap wrap"> <div class="cart_wrap"> <!-- 页面内容 --> <div class="cart_page_wrap pt0"> <h2 class="cart_stit">选择收货地址</h2> <div class="cart_address_wrap" id="cartAddress"> <!-- 选择收获地址list --> <ul class="cart_address_list clearfix" style="height: 160px;" id="cartAddressList">   <li data-aid="2140686779"> <a href="javascript:;" class="cart_address_card addressCard   selected" data-aid="2140686779">  <h5 class="cart_address_tit">田坤</h5> <p class="cart_address_street">回龙观育荣教育园区兄弟连</p> <p class="cart_address_zipinfo" data-postcode="102200" data-province="北京" data-city="北京市" data-area="昌平区">北京北京市昌平区  102200</p> <p class="cart_address_mobile">15809867751</p> <i class="cart_address_edit" style="display: none;">编辑</i> </a> </li>   </ul> <!-- 管理收获地址 --> <ul class="cart_address_ctrl clearfix" id="addressCtrl"> <li> <a href="javascript:;" class="cart_icon_link allAddressSwitch" style="display: none;">显示全部地址<i class="cart_icon_quarw">down</i></a> </li> <li> <a href="http://logistics.meilishuo.com/trade/address" target="_top">管理收货地址</a> </li> <li> <a href="javascript:;" class="addOtherAddress">使用新地址</a> </li> </ul> <div id="J_otherAddrWrap"><div class="__addressPop"><dl class="address_pop"><input class="J_addressid" name="addressId" value="2140686779" type="hidden"><dt>省：</dt><dd class="pt_ie6hack"><i class="needicon">*</i><select name="province" class="J_province J_select w140 vm"><option value="100000">北京市</option><option value="100073">上海市</option><option value="100168">天津市</option><option value="100216">重庆市</option><option value="101254">河北省</option><option value="101439">山西省</option><option value="101570">河南省</option><option value="101770">辽宁省</option><option value="101890">吉林省</option><option value="101964">黑龙江省</option><option value="102110">内蒙古自治区</option><option value="102225">江苏省</option><option value="102351">山东省</option><option value="102515">安徽省</option><option value="102647">浙江省</option><option value="102752">福建省</option><option value="102848">湖北省</option><option value="103056">湖南省</option><option value="103198">广东省</option><option value="103407">广西壮族自治区</option><option value="103532">江西省</option><option value="103650">四川省</option><option value="103857">海南省</option><option value="104153">贵州省</option><option value="104252">云南省</option><option value="104398">西藏自治区</option><option value="104479">陕西省</option><option value="104598">甘肃省</option><option value="104703">青海省</option><option value="104758">宁夏回族自治区</option><option value="104786">新疆维吾尔自治区</option><option value="104915">海外</option><option value="104934">香港特别行政区</option><option value="104956">澳门特别行政区</option><option value="104959">台湾省</option></select><label class="dt" for="">市：</label><select name="city" class="J_city J_select w100 vm"><option value="104909" selected="selected">北京市</option></select><label class="dt" for="">区：</label><select name="area" class="J_area J_select w100 vm"><option value="100001">朝阳区</option><option value="100009">海淀区</option><option value="100017">西城区</option><option value="100020">东城区</option><option value="100027">丰台区</option><option value="100033">石景山区</option><option value="100040">房山区</option><option value="100043">通州区</option><option value="100048">大兴区</option><option value="100053">顺义区</option><option value="100057">怀柔区</option><option value="100063" selected="selected">昌平区</option><option value="100067">平谷区</option><option value="100070">延庆县</option><option value="106406">密云县</option><option value="106407">门头沟区</option></select><span class="prompt"></span></dd><dt>邮政编码：</dt><dd><i class="needicon">*</i><input value="102200" data-type="c" data-errormsg="请填写正确的邮政编码" data-normal="" class="text formsize_normal J_postcode J_form vm" name="postcode" type="text"><span class="prompt"></span></dd><dt>街道地址：</dt><dd><i class="needicon">*</i><textarea data-type="*" data-min="5" data-max="100" data-normal="请填写街道地址，最少5个字，最多不能超过100个字" data-errormsg="请填写街道地址，最少5个字，最多不能超过100个字" class="textarea formsize_large J_street J_form" name="street" cols="30" rows="3"></textarea><span class="prompt breakline">请填写街道地址，最少5个字，最多不能超过100个字</span></dd><dt>收货人姓名：</dt><dd><i class="needicon">*</i><input value="田坤" data-type="*" data-errormsg="请填写收货人" data-normal="" class="text formsize_normal J_name J_form vm" name="name" type="text"><span class="prompt"></span></dd><dt>手机：</dt><dd><i class="needicon">*</i><input value="15809867751" data-type="phone" data-errormsg="请填写正确的联系号码" data-normal="" class="text formsize_normal J_mobile J_form vm" name="mobile" type="text"><span class="prompt"></span></dd><dt></dt><dd class="pt10 oper_btn"><a href="javascript:;" class="confirm_btn J_okbtn mr10">确认地址</a><a href="javascript:;" class="cancel_btn J_cancelbtn">取消</a></dd></dl></div></div> </div> <h2 class="cart_stit pt10">确认商品信息</h2> <!-- 身份认证 -->  <!-- 身份认证end --> <form action="http://buy.meilishuo.com/mls/buy?ptp=1.__item_detail.0.0.MePCc" id="orderForm" method="POST" onkeydown="if(event.keycode==13) return false;"> <!-- orderForm --> <!-- 表格 --> <table class="cart_table" id="orderTable"> <thead> <tr> <th class="cart_table_goods_wrap">商品</th> <th class="cart_table_goodsinfo_wrap">商品信息</th> <th width="80">单价(元)</th> <th width="80">数量</th> <th class="cart_table_goodscut_wrap">优惠</th> <th class="cart_table_goodsctrl_wrap">小计(元)</th> </tr> </thead> <tbody>                 <!--店铺--> <tr data-shopid="1172jnw8"> <td colspan="6" class="cart_group_head"> <label for="" class="cart_lightgray">店铺：</label>   <a href="http://s.meilishuo.com/1172jnw8" target="_top" class="cart_hoverline">美丽优选</a>  <a href="javascript:;" class="mlstalk_widget_btn" data-shopid="1172jnw8" data-toid="1zyeb84">联系客服</a>   </td> </tr> <!--商品 遍历-->            <tr class="tr_checked item4shop1172jnw8" data-stockid="1qseo4g"> <td class="cart_table_goods_wrap"><!-- 商品 --> <a href="http://item.meilishuo.com/detail/1kamuiu" target="_top" class="cart_goods_img"> <img class="cartImgTip" src="upload_655d2efkil46ja0a9d1geli4fj18g_640x900.jpg_100x100.jpg" alt="2017夏季新品宽松中长款剪口短袖套头连衣裙女" height="78" width="78"> </a> <a href="http://item.meilishuo.com/detail/1kamuiu" target="_top" class="cart_goods_t cart_hoverline" title="2017夏季新品宽松中长款剪口短袖套头连衣裙女">2017夏季新品宽松中长款剪口短袖套头连衣裙女</a> </td> <td>   <p class="cart_lh20">颜色：黑色</p>  <p class="cart_lh20">尺码：均码</p>   </td> <td class="cart_alcenter"><!-- 单价 --> <p class="cart_bold cart_itemUnit">60.00</p> </td> <td class="cart_alcenter"><!-- 数量 --> <p class="cart_itemNum">1</p> </td> <td class="cart_alcenter cartItemPromo" data-itemindex="0" data-shopindex="0" data-groupid="1zyeb84">                                    <p class="J_extraPromo"></p> <p class="ui-red-discount ui-red ui-red-packet-info">  </p> </td>  <td class="cart_alcenter"><!-- 小计 --> <p class="cart_font16 item_sum itemSum" data-price="60.00">60.00</p> </td>  </tr>  <!--备注：--> <tr class="tr_checked"> <td colspan="3" class="pl10 cart_largepding"> <label for="">备注：</label> <input value="补充填写其他信息，如有快递不到也请留言备注" class="cart_table_note cart_text cart_vm" onkeydown="if(event.keyCode==13) return false;" name="comment20169841-102087869-8-0" id="" def-v="补充填写其他信息，如有快递不到也请留言备注" style="color: rgb(204, 204, 204);" type="text"> </td> <td colspan="3" class="pr15 cart_largepding"> <!-- 店铺优惠 -->  <div class="cart_table_discount shopPromo pt5 pr10 clearfix" data-shopindex="0" data-groupid="1zyeb84">  </div>  <!-- 店铺优惠end --> <div class="cart_table_discount shopLogi pt5 pr10 clearfix" data-groupid="1zyeb84">   <label>快递公司：</label>  <select name="" class="postage cart_vm" data-shopindex="0" data-groupid="1zyeb84">  <option value="nationalfreepostage" selected="selected">全国包邮</option>  </select>  <span class="ml20 fr">快递运费：<strong class="J_ShipExpense" data-groupid="1zyeb84">¥ 0.00</strong></span>   </div> </td> </tr> <!--合计--> <tr class="tr_checked"> <td colspan="6" class="pl10 pr20 cart_largepding">  <div class="cart_table_disduce cart_lightgray cart_font16 fr"> 合计：<span class="cart_red cart_bold cart_money shopSum">60.00</span> <input class="shoppro" value="-1" name="" type="hidden"> </div> </td> </tr>  <!-- 321红包 --> <!-- 全场优惠 -->  <!-- 全场优惠 --> <!-- 蘑豆 -->  <!-- 蘑豆end -->  <!--剁手帮海淘start-->  <!--剁手帮海淘end--> </tbody> </table> <input name="addressId" id="addressId" value="2140686779" type="hidden"> <input name="xmStoreId" id="xmStoreId" value="" type="hidden"> <input name="xmMatched" id="xmMatched" value="" type="hidden"> <input name="traceid" value="generateorder_2w26bpe85pfk" type="hidden"> <input name="splitabstract" id="postdata" value="{&quot;createOrderShopGroupReqDTOList&quot;:[{&quot;comment&quot;:&quot;&quot;,&quot;shopId&quot;:&quot;1172jnw8&quot;,&quot;logisticsCode&quot;:&quot;nationalfreepostage&quot;,&quot;promotionKeyList&quot;:[],&quot;createOrderSkuGroupReqDTOList&quot;:[{&quot;skuId&quot;:&quot;1qseo4g&quot;,&quot;quantity&quot;:1,&quot;promotionKeyList&quot;:[],&quot;extensions&quot;:{&quot;ptp&quot;:&quot;1.zfrD1b.0.0.IErWc&quot;}}]}],&quot;addressId&quot;:0,&quot;promotionKeyList&quot;:[],&quot;marketType&quot;:&quot;market_meilishuo&quot;,&quot;extensions&quot;:{}}" type="hidden"> <input name="source" value="" type="hidden"> <input name="channel" id="channel" value="" type="hidden"> </form> </div> </div> <!-- footer显示价格 --> <div> <div class="cart_paybar">                      <a href="javascript:;" class="cart_surebtn fr">确认并付款 &gt;</a>  <span class="cart_paybar_info_cost cart_red cart_bold cart_font26 cart_money fr goodsSum" finalprice="60.00">¥60.00</span> <div class="cart_paybar_info cart_pregray fr"><!-- 这里的商品不会变动，后端自己算出来就好了 --> 共有 <span class="cart_red goodsNum">1</span> 件商品，总计： </div> <a href="http://cart.meilishuo.com/mls/cart/mycart" class="cart_back cart_hoverline cart_pregray">返回购物车</a> </div> </div> </div></div>
+<form action="http://buy.meilishuo.com/buy" method="post" id="compForm">
+<input name="postdata" id="preData" value="1qseo4g,1" type="hidden">
+<input name="ptp" id="prePtp" value="1.__item_detail.0.0.MePCc" type="hidden">
+<input name="ptp" id="preStockPtp" value="{&quot;1qseo4g&quot;:&quot;1.zfrD1b.0.0.IErWc&quot;}" type="hidden">
+</form>
+
+<script type="text/javascript">
+  var ISFASTBUY = false;
+</script>
+
+
+<!--  dot 模版 header-->
+<script type="text/template" id="tpl_process_bar">
+    <div class="g-header clearfix">
+        <div class="g-header-in wrap clearfix">
+            <div class="process-bar">
+                <div class="md_process md_process_len4">
+                    <div class="md_process_wrap md_process_step2_5">
+                        <div class="md_process_sd"></div>
+                        <i class="md_process_i md_process_i1"> 1 <span class="md_process_tip">购物车</span> </i>
+                        <i class="md_process_i md_process_i2"> 2 <span class="md_process_tip">确认订单</span> </i>
+                        <i class="md_process_i md_process_i3"> 3 <span class="md_process_tip">支付</span> </i>
+                        <i class="md_process_i md_process_i4"> <img src="//www.mogujie.com/img/pay/right.png" width="23" height="23" alt="" /> <span class="md_process_tip">完成</span> </i>
+                    </div>
+                </div>
+            </div>
+            <a title="美丽说" href="http://www.meilishuo.com" target="_blank"><div class="logo logo-generate"></div> </a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="tpl_pay_info">
+    {{var isPreSale = false;}}
+    {{?it.shopGroupList[0].stage && it.shopGroupList[0].stage.goodsPrice}}
+    {{isPreSale = true;}}
+    {{?}}
+    <div class="g-wrap wrap">
+        <div class="cart_wrap">
+            <!-- 页面内容 -->
+            <div class="cart_page_wrap pt0">
+                <h2 class="cart_stit">选择收货地址</h2>
+                <div class="cart_address_wrap" id="cartAddress">
+                    <!-- 选择收获地址list -->
+                    <ul class="cart_address_list clearfix"  {{?it.addressList && it.addressList.length>0}}style='height:160px'{{?}} id="cartAddressList">
+
+                    {{?it.addressList}}
+                        {{~it.addressList:value:index}}
+                            <li data-aid={{=value.addressId}}>
+                                <a href="javascript:;" class="cart_address_card addressCard   {{?value.isSelected===true}}selected{{?}}" data-aid={{= value.addressId}}>
+                                {{?value.isDefault===true}}<i class="cart_address_default">默认地址</i>{{?}}
+                                <h5 class="cart_address_tit">{{= value.realName}}</h5>
+                                <p class="cart_address_street">{{=value.address}}</p>
+                                <p class="cart_address_zipinfo" data-postcode="{{=value.zip}}" data-province={{=value.province}} data-city={{=value.city}}  data-area={{=value.area}} >{{=value.province}}{{=value.city}}{{=value.area}}  {{=value.zip}}</p>
+                                <p class="cart_address_mobile">{{=value.mobile}}</p>
+                                <i class="cart_address_edit" style="display: none;">编辑</i>
+                                </a>
+                            </li>
+                        {{~}}
+                    {{?}}
+                    </ul>
+
+                    <!-- 管理收获地址 -->
+                    <ul class="cart_address_ctrl clearfix" id="addressCtrl">
+                        <li> <a href="javascript:;" class="cart_icon_link allAddressSwitch" style="display:none">显示全部地址<i class="cart_icon_quarw">down</i></a> </li>
+                        <li> <a href="http://logistics.meilishuo.com/trade/address" target="_blank">管理收货地址</a> </li>
+                        <li> <a href="javascript:;" class="addOtherAddress">使用新地址</a> </li>
+                    </ul>
+
+                    <div id="J_otherAddrWrap"></div>
+
+                </div>
+                <h2 class="cart_stit pt10">确认商品信息</h2>
+
+                <!-- 身份认证 -->
+                {{?it.haigouAuthInfo && it.haigouAuthInfo.haigouType=='ABROAD_B'}}
+                {{?it.haigouAuthInfo.haigouAuthType=='AUTH_NEED'}}
+                <div class="auth-certify">
+                  <h2 class="cart_stit">身份认证上传</h2>
+                  <p class="cart_up_tip">您买的商品需经过海关清关，中国海关需要您的身份证件进行核对以及清关的操作。<a href="javascript:;" class="check_law" data-law="{{=it.haigouAuthInfo.policyContent}}">查看海关法律</a></p>
+                  <div class="cart_up_wrap certify-content-wrap clearfix">
+                          <div class="input-name clearfix">
+                              <div class="name-label fl">身份证姓名：</div>
+                              <input class="name-input certify-input-field fl" name="idCardName" placeholder="购买海外商品请使用此名称作为收件人姓名" />
+                          </div>
+                          <div class="input-num clearfix">
+                              <div class="num-label fl">身份证号码：</div>
+                              <input class="num-input certify-input-field fl" name="idCardNum" placeholder="" />
+                          </div>
+                  </div>
+                </div>
+                {{??it.haigouAuthInfo.haigouAuthType=='AUTH_COMPLETED'}}
+                <div class="cart_up_wrap cart_up_auth clearfix">
+                  <h2></h2>
+                  <p class="alreay_auth">
+                      <span>身份证姓名：<span class="authedName">{{?it.haigouAuthInfo.name}}{{=it.haigouAuthInfo.name}}{{?}}</span></span>&nbsp;&nbsp;
+                      <span>身份证号码：<span class="authedId">{{?it.haigouAuthInfo.identity}}{{=it.haigouAuthInfo.identity}}{{?}}</span></span>
+                 </p>
+               </div>
+                {{?}}
+                {{?}}
+                <!-- 身份认证end -->
+
+
+                <form id="orderForm" method="POST" onkeydown="if(event.keycode==13) return false;"> <!-- orderForm -->
+                    <!-- 表格 -->
+                    <table class="cart_table" id="orderTable">
+                        <thead>
+                        <tr>
+                            <th class="cart_table_goods_wrap">商品</th>
+                            <th class="cart_table_goodsinfo_wrap">商品信息</th>
+                            <th width="80">单价(元)</th>
+                            <th width="80">数量</th>
+                            <th class="cart_table_goodscut_wrap">优惠</th>
+                            <th class="cart_table_goodsctrl_wrap">小计(元)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                          {{var goodsNum = 0;}}
+                    {{~it.shopGroupList:shop:shopIndex}}
+                        {{var chooseShopPromotion = false;}}
+                        {{?shop.operationList && shop.operationList.length}}
+                        {{~shop.operationList:shopProm}}
+                            {{?shopProm.operationName && shopProm.operationName == 'chooseShopPromotion'}}
+                                {{chooseShopPromotion = true;}}
+                            {{?}}
+                        {{~}}
+                        {{?}}
+                        <!--店铺-->
+                        <tr data-shopid="{{=shop.shopIdEsc}}">
+                            <td colspan="6" class="cart_group_head">
+                                <label for="" class="cart_lightgray">店铺：</label>
+                                {{?shop.shopIdEsc}}
+                                    {{?shop.shopIdEsc == '1qfnyw'}}
+                                    <span>{{?shop.shopName}}{{=shop.shopName}}{{?}}</span>
+                                    {{??}}
+                                    <a href="http://s.meilishuo.com/{{=shop.shopIdEsc}}" target="_blank" class="cart_hoverline">{{?shop.shopName}}{{=shop.shopName}}{{?}}</a>
+                                    {{?}}
+                                    <a href="javascript:;" class="mlstalk_widget_btn" data-shopid="{{=shop.shopIdEsc}}" data-toid="{{=shop.sellerUserIdEsc}}">联系客服</a>
+                                {{?}}
+                                {{?shop.tagList.length>0}}
+                                {{~shop.tagList:tag}}
+                                    {{?tag.type==2}}
+                                    <img class="act-tag-img" src="{{=tag.image}}" height="11.5">
+                                    {{?}}
+                                {{~}}
+                                {{?}}
+                            </td>
+                        </tr>
+
+
+                        <!--商品 遍历-->
+                        {{~shop.skuGroupList:skuValue:skuIndex}}
+
+                            {{var skuPromotion = false;goodsNum++;}}
+                            {{?skuValue.operationList && skuValue.operationList.length }}
+                                {{~skuValue.operationList:skuOp}}
+                                    {{?skuOp.operationName && skuOp.operationName=="chooseSkuPromotion"}}
+                                        {{skuPromotion = true;}}
+                                    {{?}}
+                                {{~}}
+                            {{?}}
+                        <tr class="tr_checked item4shop{{=shop.shopIdEsc}}" data-stockid="{{=skuValue.skuIdEsc}}">
+                            <td class="cart_table_goods_wrap"><!-- 商品 -->
+                                <a href="http://item.meilishuo.com/detail/{{=skuValue.itemIdEsc}}" target="_blank" class="cart_goods_img">
+                                    <img class="cartImgTip" src="{{= it.getImgThumbnailUrl(skuValue.imgUrl,100,100)}}" width="78" height="78" alt="{{=skuValue.title}}">
+                                </a>
+                                <a href="http://item.meilishuo.com/detail/{{=skuValue.itemIdEsc}}" target="_blank" class="cart_goods_t cart_hoverline" title="{{=skuValue.title}}">{{?isPreSale}}<span style="color:#f43c32">[预售]</span>{{?}}{{=skuValue.title}}</a>
+                            </td>
+                            <td>
+                                {{?skuValue.skuAttrList && skuValue.skuAttrList.length>0}}
+                                {{~skuValue.skuAttrList:skuAttr:index}}
+                                <p class="cart_lh20">{{=skuAttr.attributeKey}}：{{=skuAttr.attributeValue}}</p>
+                                {{~}}
+                                {{?}}
+                            </td>
+                            <td class="cart_alcenter"><!-- 单价 -->
+                                <p class="cart_bold cart_itemUnit">{{=(skuValue.skuPrice/100).toFixed(2)}}</p>
+                            </td>
+                            <td class="cart_alcenter"><!-- 数量 -->
+                                <p class="cart_itemNum">{{=skuValue.quantity}}</p>
+                            </td>
+                            <td class="cart_alcenter cartItemPromo" data-itemindex="{{=skuIndex}}" data-shopindex="{{=shopIndex}}" data-groupid="{{=shop.sellerUserIdEsc}}">
+
+                                {{?isPreSale}}
+                                    <p>
+                                        <span class="pre_tittle">预售</span>    
+                                        <span class="pre_save">定金可抵￥{{=(shop.stage.discountPrice/100).toFixed(2)}}</span>
+                                    </p>
+                                {{?}}        
+                                {{?skuPromotion && skuValue.promotionList && skuValue.promotionList.length}}
+                                {{?ISFASTBUY}}
+                                <span class="cart_alcenter">{{=skuValue.selectedPromotionList[0].promotionDesc}}</span>
+                                {{??}}
+                                <select class="stockpro" name="" id="">
+                                    {{~skuValue.promotionList:skuPm}}
+                                    <option value="{{=skuPm.promotionKey}}" {{?skuPm.promotionKey==skuValue.selectedPromotionList[0].promotionKey}}selected="selected"{{?}}>{{=skuPm.promotionDesc}}</option>
+                                    {{~}}
+                                </select>
+                                {{?}}
+                                {{?}}
+                                {{?skuValue.selectedPromotionList&&skuValue.selectedPromotionList.length&&skuValue.selectedPromotionList[0].discountFee>0}}
+                                <span class="s_disScreen">省{{=(skuValue.selectedPromotionList[0].discountFee/100).toFixed(2)}}元</span>
+                                {{?}}
+                                <p class="J_extraPromo"></p>
+                                <p class="ui-red-discount ui-red ui-red-packet-info">
+                                {{?skuValue.redPacketDTO}}
+                                  {{?skuValue.redPacketDTO.desc}}{{=skuValue.redPacketDTO.desc}}已抵{{?}}{{=(skuValue.redPacketDTO.price/100).toFixed(2)}}元
+                                {{?}}
+                                </p>
+                            </td>
+                            {{?isPreSale}}
+                            <td class="cart_alcenter">
+
+                                  <p >定金：{{=(it.shopGroupList[0].stage.goodsPrice/100).toFixed(2)}}</p>
+                                  总价：<span class="cart_font16 item_sum itemSum" data-price="{{=(skuValue.totalPrice/100).toFixed(2)}}">
+                                    {{=(skuValue.totalPrice/100).toFixed(2)}}
+                                  </span>
+                            </td>
+                            {{??}}
+                            <td class="cart_alcenter"><!-- 小计 -->
+                                <p class="cart_font16 item_sum itemSum" data-price="{{=(skuValue.totalPrice/100).toFixed(2)}}">{{=(skuValue.totalPrice/100).toFixed(2)}}</p>
+                            </td>
+                            {{?}}
+                        </tr>
+
+                        {{~}}
+
+                        <!--备注：-->
+                        <tr class="tr_checked">
+                            <td colspan="3" class="pl10 cart_largepding">
+
+                                <label for="">备注：</label>
+                                <input type="text" class="cart_table_note cart_text cart_vm" onkeydown='if(event.keyCode==13) return false;' name="comment20169841-102087869-8-0" id="" def-v="补充填写其他信息，如有快递不到也请留言备注" style="color: rgb(204, 204, 204);">
+                            </td>
+                            <td colspan="3" class="pr15 cart_largepding">
+
+                                <!-- 店铺优惠 -->
+                                {{?chooseShopPromotion}}
+                                <div class="cart_table_discount shopPromo pt5 pr10 clearfix" data-shopindex="{{=shopIndex}}" data-groupid="{{=shop.sellerUserIdEsc}}">
+
+                                  {{?shop.promotionList && shop.promotionList.length && shop.selectedPromotionList && shop.selectedPromotionList.length}}
+                                  <span class="cart_table_disduce cart_bold shopPromoDuce pl10 fr">- ¥ {{=(shop.selectedPromotionList[0].discountFee/100).toFixed(2)}}</span>
+                                  <label for="">店铺优惠：</label>
+
+                                  <select name="" class="shopPromoSel cart_vm">
+                                      {{~shop.promotionList:shopPromitem}}
+                                      <option value="{{=shopPromitem.promotionKey}}" {{?shopPromitem.promotionKey==shop.selectedPromotionList[0].promotionKey}}selected="selected"{{?}}>{{=shopPromitem.promotionDesc}}</option>
+                                      {{~}}
+                                  </select>
+
+                                  {{?}}
+                                </div>
+                                {{?}}
+                                <!-- 店铺优惠end -->
+
+                                <div class="cart_table_discount shopLogi pt5 pr10 clearfix" data-groupid="{{=shop.sellerUserIdEsc}}">
+                                    {{?!isPreSale}}
+                                      {{?shop.logisticsList && shop.logisticsList.length}}
+                                      <label>快递公司：</label>
+                                      {{?ISFASTBUY}}
+                                      <span>{{=shop.selectedLogistics.expressName}}</span>
+                                      {{??}}
+                                      <select name="" class="postage cart_vm" data-shopindex="{{=shopIndex}}" data-groupid="{{=shop.sellerUserIdEsc}}">
+                                        {{~shop.logisticsList:logistics}}
+                                        <option value="{{=logistics.expressCode}}" {{?logistics.expressCode==shop.selectedLogistics.expressCode}}selected="selected"{{?}}>{{=logistics.expressName}}</option>
+                                        {{~}}
+                                      </select>
+                                      {{?}}
+                                      <span class="ml20 fr">快递运费：<strong class="J_ShipExpense" data-groupid="{{=shop.sellerUserIdEsc}}">¥ {{=(shop.selectedLogistics.postage/100).toFixed(2)}}</strong></span>
+                                      {{?}}
+                                    {{??}}
+                                      <ul class="f_cart_tittle">
+                                          <li>定金</li>
+                                          <li>定金抵{{=(shop.stage.discountPrice/100).toFixed(2)}}元：</li>
+                                          <li>尾款：未开始</li>
+                                          <li>运费：和尾款一起支付</li>
+                                      </ul>
+                                      <ul class="f_cart_money">
+                                          <li class="cart_red">￥{{=(shop.stage.goodsPrice/100).toFixed(2)}}</li>
+                                          <li>-￥{{=(shop.stage.discountPrice/100).toFixed(2)}}</li>
+                                          <li>￥{{=(shop.stage.lastPrice/100).toFixed(2)}}</li>
+                                          {{?shop.selectedLogistics.postage}}
+                                          <li>￥{{=(shop.selectedLogistics.postage/100).toFixed(2)}}</li>
+                                          {{??}}
+                                          <li>￥0.00</li>
+                                          {{?}}
+                                      </ul>
+                                    {{?}}
+                                </div>
+                            </td>
+                        </tr>
+                        <!--合计-->
+                        <tr class="tr_checked">
+                            <td colspan="6" class="pl10 pr20 cart_largepding">
+                                {{?isPreSale}}
+                                    <div class="telephone fl">
+                                        {{?it.addressList}}
+                                            {{~it.addressList:value:index}}
+                                                {{?value.isSelected===true}}支付尾款短信通知：{{=value.mobile}}{{?}}
+                                            {{~}}
+                                        {{?}}
+                                    </div>
+                                {{?}}
+                                    <div class="cart_table_disduce cart_lightgray cart_font16 fr">
+                                        {{?isPreSale}}定金合计：<span class="cart_red cart_bold cart_money shopSum">{{=(it.shopGroupList[0].stage.goodsPrice/100).toFixed(2)}}</span>{{??}}合计：<span class="cart_red cart_bold cart_money shopSum">{{=(shop.totalPrice/100).toFixed(2)}}</span>{{?}}
+                                        <input type="hidden" class="shoppro" value="-1" name="">
+                                    </div>
+                            </td>
+                        </tr>
+
+                    {{~}}
+
+                    <!-- 321红包 -->
+
+                    <!-- 全场优惠 -->
+                    {{?it.selectedPromotionList.length}}
+                        <tr class="discart-otherinfo">
+                            <td colspan="6" class="pr20" style="text-align:right;border-bottom: none;">
+                            <p class="cart_table_discount cart_fix_fbox fr ">
+                              <label for="" class="cart_vm">全场优惠：</label>
+                              <select name="" class="cart_vm" id="cashReduce">
+                                {{~it.promotionList:promo}}
+                                <option value="{{=promo.promotionKey}}" {{?promo.promotionKey==it.selectedPromotionList[0].promotionKey}}selected="selected"{{?}}>{{=promo.promotionDesc}}</option>
+                                {{~}}
+                              </select>
+                              <span class="cart_table_disduce cart_vm" id="cashReduceScreen">- {{=(it.selectedPromotionList[0].discountFee/100).toFixed(2)}}元</span>
+                            </p>
+
+                          </td>
+                        </tr>
+                      {{?}}
+                    <!-- 全场优惠 -->
+
+                    <!-- 蘑豆 -->
+                    {{?it.modouAvailable}}
+                    <tr class="modou-info">
+                      <td colspan="6" class="pr20" style="text-align:right;border-bottom: none;">
+                          <div class="modou-wrapper fr">
+                              <div class="modou-box fl">
+                                  <input type="checkbox" class="modou-checkbox">
+                                  <input type="hidden" class="max-modou-use" value="{{=it.modouAvailable}}">
+                                  <label>蘑豆抵现<span class="modou-left">（可用{{=it.modouAvailable}}粒）</span></label>
+                              </div>
+                              <div class="modou-input fl">
+                                  <input type="text" class="modou-use-num fl" name="modouUse" autocomplete="off" old-value="0">
+                                  <p class="modou-to-money fl">
+                                      <span>&nbsp;粒&nbsp;&nbsp;</span>
+                                      <span class="cut">-</span>
+                                      <span class="modou-cut-money">0.00</span>
+                                      <span class="unit-yuan">元</span>
+                                  </p>
+                                  <div class="modou-use-errortip" style="display: none;">
+                                      <p class="fl" style="display:none"></p>
+                                      <i class="fl"></i>
+                                  </div>
+                              </div>
+                          </div>
+                      </td>
+                    </tr>
+                    {{?}}
+                    <!-- 蘑豆end -->
+                    {{?it.shopGroupList[0].stage && it.shopGroupList[0].stage.goodsPrice}}
+                    <!-- 预售规则 -->
+                    <tr>
+                      <td colspan="6" class="pr20 presale-container" style="text-align:right;border-bottom: none;">
+                          <div class="fr">
+                              <div class="fl">
+                                  <input type="checkbox" class="js-presale-checkobox" checked>
+                                  阅读并同意<a href="javascript:;" style="color:#ff3366;" class="presale-rule">《预售规则》</a>
+                              </div>
+                          </div>
+                      </td>
+                    </tr>
+                     <!--预售规则end -->
+                     {{?}}
+                    <!--剁手帮海淘start-->
+                      {{? it.tagsFlag}}
+                    <tr class="sea_amoy_tr">
+                        <td colspan="6">
+                            <div class="fr">
+                                <div class="fl seaAmoy">
+                                    <div class="anolog_checkbox"></div>
+                                    <span class="sea_amoy_text">本人接受海淘订单的<span class="trigger_popover">退换货政策</span></span>
+                                    <div class="popover sea_amoy_describe trigger_popover hide">
+                                        <p>发货前可以退款吗？</p>
+                                        <p>在您付款后，商家马上为您去官网进行采购，因官网信息的更新不及时等问题，原则上不支持退款，请您谨慎下单。如有特殊情况，请联系店铺客服进行处理。</p>
+                                        <p>我收到货后可以退货吗？</p>
+                                        <p>由于海外退货运费成本高，海淘商品不支持无理由退货；如果现货商品出现破损残缺丢件少件等严重问题，请您在7个工作日内联系店铺客服进行处理。</p>
+                                        <p>美丽说上购买的海外商品支持换货吗？</p>
+                                        <p>由于海淘换货时间过长、物流成本过高，暂不支持换货服务，敬请见谅。</p>
+                                        <p>退货费用</p>
+                                        <p>由于商品发错，破损等客观因素产生的退货申请，核实后会全额返还退货产生的费用。 具体退款事宜请联系各店铺客服进行咨询。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     {{?}}
+                    <!--剁手帮海淘end-->
+                    </tbody>
+                    </table>
+
+                    <input type="hidden" name="addressId" id="addressId" value="">
+                    <input type="hidden" name="xmStoreId" id="xmStoreId" value="">
+                    <input type="hidden" name="xmMatched" id="xmMatched" value="">
+                    <input type="hidden" name="traceid" value="generateorder_2w26bpe85pfk">
+                    <input type="hidden" name="splitabstract" id="postdata" value="">
+                    <input type="hidden" name="source" value="">
+                    <input type="hidden" name="channel" id="channel" value="">
+                </form>
+
+            </div>
+        </div>
+        <!-- footer显示价格 -->
+        <div>
+            <div class="cart_paybar">
+                {{?isPreSale}}
+                    <a href="javascript:;" class="cart_surebtn fr" style="background-color:#ef2f23">支付定金</a>
+                {{??}}  
+                    <a href="javascript:;" class="cart_surebtn fr">确认并付款 ></a>
+                {{?}}
+                <span class="cart_paybar_info_cost cart_red cart_bold cart_font26 cart_money fr goodsSum" finalprice="{{=(it.totalPrice/100).toFixed(2)}}">¥{{?isPreSale}}{{=(it.shopGroupList[0].stage.goodsPrice/100).toFixed(2)}}{{??}}{{=(it.totalPrice/100).toFixed(2)}}{{?}}</span>
+                <div class="cart_paybar_info cart_pregray fr"><!-- 这里的商品不会变动，后端自己算出来就好了 -->
+                    共有 <span class="cart_red goodsNum">{{=goodsNum}}</span> 件商品，{{?isPreSale}}定金{{?}}总计：
+                </div>
+
+                <a href="http://cart.meilishuo.com/mls/cart/mycart" class="cart_back cart_hoverline cart_pregray">返回购物车</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+  </div>
+
+      <div class="g-footer">
+    <p title="mofa015027">
+        <a href="http://www.meilishuo.com/" target="_top">美丽说</a> 
+        © 2016 Meilishuo.com,All Rights Reserved.
+    </p>
+    <!-- <div class="icons">
+        <a class="vs" href="javascript:;"></a>
+        <a class="mc" href="javascript:;"></a>
+        <a class="up" href="javascript:;"></a>
+        <a class="pa" href="http://bank.pingan.com/index.shtml" target="_blank"></a>
+        <a class="kx" href="https://ss.knet.cn/verifyseal.dll?sn=e14090533010053532r3hn000000&amp;ct=df&amp;a=1&amp;pa=500267&amp;tp=1.0.20.0.28.KXYH9AB" target="_blank"></a>
+        <a class="pc" href="http://www.pingpinganan.gov.cn/" target="_blank"></a>
+    </div> -->
+</div>
+
+
+        <script type="text/javascript" src="index.js-f1afeca6.js"></script>
+    
+        <script type="text/javascript" src="index.js-ef421c8f.js"></script>
+    
+
+
+
+
+</body>
+</html>

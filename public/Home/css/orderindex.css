@@ -1,0 +1,71 @@
+/* ::::: https://s10.mogucdn.com/__newtown/mogu-global/assets/mls-pc/common/base/css/index.css-99f78bc2.css,newtown/mogu-global/assets/mls-pc/common/captcha/captcha.css-1441bc4f.css,newtown/mogu-global/assets/mls-pc/common/vpop/vpop.css-17a51501.css,newtown/mogu-global/assets/mls-pc/common/nav/index.css-3c245148.css,newtown/mogu-global/assets/mls-pc/common/im/index.css-38e982ab.css,newtown/mogu-global/assets/mls-pc/common/header/index.css-f0e361da.css,newtown/mogu-global/assets/mls-pc/common/trade-nav/index.css-63e7a9a6.css ::::: */
+
+body, dd, dl, form, ol, p, ul { margin: 0px; }
+ol, ul { padding: 0px; list-style: none outside none; }
+body, html { color: rgb(51, 51, 51); }
+body, button, input, select, textarea { font: 12px/1.6 tahoma,arial,sans-serif; }
+button, input, select, textarea { font-size: 100%; }
+a { text-decoration: none; color: rgb(51, 51, 51); }
+a img { border: 0px none; vertical-align: middle; }
+input, textarea { margin: 0px; padding: 0px; outline: medium none; }
+.fl { float: left; }
+.fl, .fr {  }
+.clearfix:after { content: "."; display: block; height: 0px; font-size: 0px; clear: both; visibility: hidden; }
+.clearfix {  }
+.media_screen_1200 { min-width: 1200px; }
+.media_screen_1200 .wrap { width: 1200px; margin-left: auto; margin-right: auto; }
+.header_2015 { height: 31px; margin-bottom: 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-bottom: 1px solid rgb(238, 238, 238); }
+.foot { overflow: hidden; margin-top: 90px; font-size: 12px; background: url('foot_ieydomrxmfswgnrymiytambqhayde_24x160.png') repeat-x scroll center top rgb(251, 251, 251); }
+.foot a:hover { text-decoration: underline; }
+.foot .foot_wrap { padding: 30px 0px; }
+.foot .foot_info { overflow: hidden; float: left; width: 270px; }
+.foot .foot_info .info_logo { display: block; height: 52px; background: url('170411_298gh6kg2774g37kbd3eel4ib8147_408x104.png') no-repeat scroll 0% 0% / 204px 52px transparent; }
+.foot .foot_info .info_text { overflow: hidden; margin-top: 2px; }
+.foot .foot_info .info_text p { height: 16px; line-height: 16px; margin-top: 5px; color: rgb(153, 153, 153); }
+.foot .foot_info .info_text a { color: rgb(153, 153, 153); cursor: pointer; }
+.foot .foot_info .info_text a:hover { text-decoration: none; }
+.foot .foot_link { float: left; margin-left: -30px; }
+.foot .foot_link dl { float: left; margin-left: 121px; }
+.foot .foot_link dd, .foot .foot_link dt { height: 14px; }
+.foot .foot_link dt { padding-bottom: 3px; color: rgb(51, 51, 51); font-weight: 700; }
+.foot .foot_link dd { margin-top: 8px; }
+.foot .foot_link dd a { color: rgb(102, 102, 102); }
+.foot .foot_link .link_company {  }
+.foot .foot_link .link_consumer {  }
+.foot .foot_link .link_business {  }
+.header_mid { position: relative; clear: both; border-bottom: 1px solid rgb(255, 102, 153); }
+.header_mid .logo { float: left; width: 250px; height: 60px; margin-top: 28px; margin-bottom: 20px; overflow: hidden; text-indent: -999em; background: url('170411_298gh6kg2774g37kbd3eel4ib8147_408x104.png') no-repeat scroll 0% 0% / 204px 52px transparent; }
+.top_nav_search { position: relative; z-index: 50; float: left; width: 502px; margin: 35px 0px 0px 132px; }
+.top_nav_search .search_inner_box { border: 1px solid rgb(255, 51, 102); }
+.top_nav_search .selectbox { position: relative; float: left; width: 70px; z-index: 10; }
+.top_nav_search .selectbox .selected { display: block; height: 33px; line-height: 32px; padding-left: 12px; color: rgb(102, 102, 102); cursor: pointer; background-color: rgb(255, 255, 255); border-radius: 4px 0px 0px 4px; background-image: url('upload_ieytszrsgaytmm3cgmzdambqmeyde_100x400.png'); background-repeat: no-repeat; background-position: 51px -17px; }
+.top_nav_search .selectbox ol { display: none; position: absolute; top: 100%; left: -1px; width: 70px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-right: 1px solid rgb(206, 206, 206); border-width: 1px; border-style: solid; border-color: rgb(255, 51, 102) rgb(206, 206, 206) rgb(206, 206, 206); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.top_nav_search .selectbox li a { display: block; height: 30px; line-height: 30px; overflow: hidden; color: rgb(102, 102, 102); text-align: center; }
+.top_nav_search .selectbox li a:hover { background: none repeat scroll 0% 0% rgb(247, 247, 247); color: rgb(102, 102, 102); }
+.top_nav_search .selectbox .current a { color: rgb(51, 51, 51); }
+.top_nav_search .ts_txt { float: left; height: 21px; line-height: 20px; padding: 6px 10px 6px 6px; width: 344px; border: medium none; color: rgb(153, 153, 153); font-size: 12px; }
+.top_nav_search .ts_btn { float: left; height: 33px; overflow: hidden; width: 70px; background-color: rgb(255, 51, 102); border: medium none; cursor: pointer; color: rgb(255, 255, 255); text-indent: -999em; background-image: url('upload_ieytszrsgaytmm3cgmzdambqmeyde_100x400.png'); background-repeat: no-repeat; background-position: 27px -57px; }
+.top_nav_search .ts_hotwords { margin-left: -16px; white-space: nowrap; width: 518px; overflow: hidden; text-overflow: ellipsis; margin-top: 5px; }
+.top_nav_search .top_search_hint { display: none; position: absolute; left: 0px; top: 33px; width: 500px; z-index: 999; font-size: 12px; background-color: rgb(255, 255, 255); border-right: 1px solid rgb(206, 206, 206); border-width: 1px; border-style: solid; border-color: rgb(255, 51, 102) rgb(206, 206, 206) rgb(206, 206, 206); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+@media (max-width: 1212px) {
+  .header_2015 .header_mid .eleven_logo { background-image: url('twelve_logo_960.gif'); }
+  .header_2015 .header_mid .top_nav_search { margin-left: 40px; }
+  .header_2015 .nav_list li { padding: 0px 16px; }
+}
+@media (max-width: 1212px) {
+  .header_2014 .header_mid .eleven_logo { background-image: url('twelve_logo_960.gif'); }
+  .header_2014 .header_mid .top_nav_search { margin-left: 40px; }
+  .header_2014 .nav_list li { padding: 0px 16px; }
+}
+.mu_wrap { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.mu_content_wrap { float: left; width: 1014px; padding-bottom: 20px; }
+.media_screen_1200 .mu_content_wrap { width: 1014px; }
+/* ::::: https://s10.mogucdn.com/__newtown/trade_tm_web/assets/mls-pc/pages/list/index.css-0c69c351.css ::::: */
+
+#body_wrap { margin-top: 20px; }
+.goods { width: 32%; }
+.aftersale, .price { width: 11.7%; }
+.quantity { width: 6.8%; }
+.other, .status, .total { width: 12.5%; }
+.order-title { position: relative; height: 40px; margin-bottom: 30px; line-height: 40px; background: url('1blhwf_ieydemldmy4tombtmmytambqgiyde_5x40.gif') repeat-x scroll 0% 0% rgb(250, 250, 250); }
+.order-title-column li { float: left; font-weight: 700; text-align: center; }
